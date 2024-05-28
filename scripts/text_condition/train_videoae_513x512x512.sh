@@ -9,7 +9,7 @@ accelerate launch \
     --cache_dir "./cache_dir" \
     --dataset t2v \
     --ae CausalVAEModel_4x8x8 \
-    --ae_path "/remote-home1/yeyang/CausalVAEModel_4x8x8" \
+    --ae_path /root/Open-Sora-Plan-RR/vae \
     --video_data "scripts/train_data/video_data_513.txt" \
     --image_data "scripts/train_data/image_data.txt" \
     --sample_rate 1 \
