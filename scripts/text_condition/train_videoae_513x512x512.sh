@@ -26,13 +26,13 @@ accelerate launch \
     --lr_warmup_steps=0 \
     --mixed_precision="bf16" \
     --report_to="wandb" \
-    --checkpointing_steps=250 \
+    --checkpointing_steps=1 \
     --output_dir="513x512x512_10node_bs1_lr2e-5_4img" \
     --allow_tf32 \
     --use_deepspeed \
     --model_max_length 300 \
     --use_image_num 4 \
     --enable_tiling \
-    --pretrained 221x512x512_10node_bs1_lr2e-5_4img/diffusion_pytorch_model.safetensors \
+    --pretrained "/root/Open-Sora-Plan-RR/t2v.pt" \
     --enable_tracker \
     --resume_from_checkpoint "latest"
