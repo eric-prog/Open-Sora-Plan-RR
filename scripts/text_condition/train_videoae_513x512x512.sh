@@ -33,6 +33,6 @@ accelerate launch \
     --model_max_length 300 \
     --use_image_num 4 \
     --enable_tiling \
-    --pretrained "/root/Open-Sora-Plan-RR/t2v.pt" \
+    --pretrained "/root/Open-Sora-Plan-RR/221x512x512" \
     --enable_tracker \
     --resume_from_checkpoint "latest"
