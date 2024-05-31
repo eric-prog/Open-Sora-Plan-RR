@@ -1,7 +1,7 @@
 from huggingface_hub import hf_hub_download
 
 # Specify the repository and the directory to download
-repo_id = "LanguageBind/Open-Sora-Plan-v1.0.0"
+repo_id = "LanguageBind/Open-Sora-Plan-v1.1.0"
 subfolder = "vae"
 
 # Files to download
